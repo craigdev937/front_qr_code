@@ -7,6 +7,12 @@
     --dark-blue: hsl(218, 44%, 22%);
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-size: 15px;
     font-family: "Outfit", sans-serif;
@@ -19,31 +25,47 @@ main {
     place-items: center;
 }
 
-section {
+.qr {
     display: flex;
     flex-direction: column;
-    max-width: min-content;
-    padding: 25px;
-    border-radius: 10px;
+    align-items: center;
+    max-width: 320px;
+    padding: 20px;
+    border-radius: 20px;
     background-color: var(--white);
 }
 
-img {
-    width: 320px;
+.qr__image {
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-bottom: 20px;
 }
 
 h1 {
     font-size: 1.5rem;
     text-align: center;
     color: var(--dark-blue);
+    margin-bottom: 20px;
 }
 
 p {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.125rem;
     color: var(--grayish-blue);
+    margin-bottom: 15px;
+}
+
+/* CHALLENGE FOOTER WITH LINKS */
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
 }
 
 
