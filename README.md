@@ -44,7 +44,7 @@ I wanted to practice using Grid combined with Flexbox.
 
 ## Author
 
-- Website - [Craig Johnson](https://craigdev937.netlify.app/)
-- Frontend Mentor - [@craigdev937](https://www.frontendmentor.io/profile/craigdev937)
-- Twitter - [@craigdev937](https://www.twitter.com/craigdev937)
+- Website - [Craig Johnson](https://craigdev937.netlify.app/){:target="_blank"}
+- Frontend Mentor - [@craigdev937](https://www.frontendmentor.io/profile/craigdev937){:target="_blank"}
+- Twitter - [@craigdev937](https://www.twitter.com/craigdev937){:target="_blank"}
 
